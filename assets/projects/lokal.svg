@@ -1,0 +1,15 @@
+<!-- Lokal - panel dla gastronomii. Znak sklada sie z inicjalu L (rog stolu) i nakrycia
+     widzianego z gory. Wermilion i zloto sa paleta samego produktu (frontend/src: #E8622C,
+     #D9A441), nie wymyslone. -->
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lokal">
+  <defs>
+    <linearGradient id="lokal-g" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#F0824F"/>
+      <stop offset="1" stop-color="#D9A441"/>
+    </linearGradient>
+  </defs>
+  <path fill="none" stroke="url(#lokal-g)" stroke-width="62" stroke-linecap="round"
+        stroke-linejoin="round" d="M 112 82 L 112 400 L 430 400"/>
+  <circle cx="318" cy="200" r="94" fill="none" stroke="url(#lokal-g)" stroke-width="44"/>
+  <circle cx="318" cy="200" r="24" fill="url(#lokal-g)"/>
+</svg>
