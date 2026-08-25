@@ -146,15 +146,24 @@
 
 <!-- Karty z wlasnego backendu ghstats (ghapi.dualfroz.com) - licza WSZYSTKIE commity z historii, tez te sprzed zalozenia konta -->
 
-<img src="https://ghapi.dualfroz.com/stats" height="170" />
-<img src="https://ghapi.dualfroz.com/streak" height="170" /><br>
+<img src="https://ghapi.dualfroz.com/stats" height="180" />
+<img src="https://ghapi.dualfroz.com/top-langs" height="180" /><br>
 
-<img src="https://ghapi.dualfroz.com/top-langs" height="170" />
-<img src="https://ghapi.dualfroz.com/loc" height="170" /><br>
+<img src="https://ghapi.dualfroz.com/loc" height="180" />
+<img src="https://ghapi.dualfroz.com/by-year" height="180" /><br>
 
-<img src="https://ghapi.dualfroz.com/activity?range=all" width="98%" /><br>
+<img src="https://ghapi.dualfroz.com/streak" height="180" /><br>
+
+<img src="https://ghapi.dualfroz.com/achievements" height="290" /><br>
+
+<img src="https://ghapi.dualfroz.com/top-repos" height="290" /><br>
+
+<img src="https://ghapi.dualfroz.com/punchcard" width="98%" /><br>
 
 <img src="https://ghapi.dualfroz.com/heatmap" width="98%" /><br>
+
+<!-- Flagowy flex: cala historia 2018+, ktorej GitHub nie pokazuje -->
+<img src="https://ghapi.dualfroz.com/heatmap?range=all" width="98%" /><br>
 
 <img src="https://komarev.com/ghpvc/?username=dualfroz&label=Profile%20Views&color=7aa2f7&style=flat" />
 
