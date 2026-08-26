@@ -160,6 +160,8 @@
 
 <img src="https://ghapi.dualfroz.com/heatmap" width="98%" /><br>
 
+<img src="https://raw.githubusercontent.com/dualfroz/dualfroz/output/github-snake-dark.svg" width="98%" /><br>
+
 <img src="https://komarev.com/ghpvc/?username=dualfroz&label=Profile%20Views&color=7aa2f7&style=flat" />
 
 </div>
