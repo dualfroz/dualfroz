@@ -25,7 +25,7 @@
 
 `🐙` [GitHub](https://github.com/VulCodeCom) &nbsp;·&nbsp; `💬` [Discord](https://discord.gg/vulcode) &nbsp;·&nbsp; `✉️` [me@dualfroz.com](mailto:me@dualfroz.com) &nbsp;·&nbsp; `🌐` [dualfroz.com/kontakt](https://dualfroz.com/kontakt)
 
-[<img src="https://img.shields.io/badge/Discord-Join%20the%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" />](https://discord.gg/vulcode)
+[<img src="https://ghapi.dualfroz.com/discord" />](https://discord.gg/vulcode)
 
 <br>
 
