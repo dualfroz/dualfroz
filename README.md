@@ -160,9 +160,6 @@
 
 <img src="https://ghapi.dualfroz.com/heatmap" width="98%" /><br>
 
-<!-- Flagowy flex: cala historia 2018+, ktorej GitHub nie pokazuje -->
-<img src="https://ghapi.dualfroz.com/heatmap?range=all" width="98%" /><br>
-
 <img src="https://komarev.com/ghpvc/?username=dualfroz&label=Profile%20Views&color=7aa2f7&style=flat" />
 
 </div>
