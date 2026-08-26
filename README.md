@@ -25,7 +25,7 @@
 
 `🐙` [GitHub](https://github.com/VulCodeCom) &nbsp;·&nbsp; `💬` [Discord](https://discord.gg/vulcode) &nbsp;·&nbsp; `✉️` [me@dualfroz.com](mailto:me@dualfroz.com) &nbsp;·&nbsp; `🌐` [dualfroz.com/kontakt](https://dualfroz.com/kontakt)
 
-[<img src="https://discord-readme-badge.vercel.app/api?id=181326503601111041" />](https://discord.com/users/181326503601111041)
+[<img src="https://img.shields.io/badge/Discord-Join%20the%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white" />](https://discord.gg/vulcode)
 
 <br>
 
@@ -155,8 +155,6 @@
 <img src="https://ghapi.dualfroz.com/streak" height="180" /><br>
 
 <img src="https://ghapi.dualfroz.com/achievements" height="290" /><br>
-
-<img src="https://ghapi.dualfroz.com/top-repos" height="290" /><br>
 
 <img src="https://ghapi.dualfroz.com/punchcard" width="98%" /><br>
 
