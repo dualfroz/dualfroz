@@ -95,8 +95,8 @@ I like putting real work into open source, exploring new technologies and going 
     <td align="center" width="25%"><h3>200+</h3>projects</td>
   </tr>
   <tr>
-    <td align="center" width="25%"><h3>250,000+</h3>OSS project stars</td>
-    <td align="center" width="25%"><h3>40</h3>open source projects</td>
+    <td align="center" width="25%"><h3>270,000+</h3>OSS project stars</td>
+    <td align="center" width="25%"><h3>41</h3>open source projects</td>
     <td align="center" width="25%"><h3>26</h3>languages</td>
     <td align="center" width="25%"><h3>1,634</h3>working days</td>
   </tr>

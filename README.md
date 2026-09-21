@@ -181,8 +181,8 @@ Poza głównymi projektami robię dużo mniejszych rzeczy, zarówno na zlecenie,
     <td align="center" width="25%"><h3>200+</h3>projektów</td>
   </tr>
   <tr>
-    <td align="center" width="25%"><h3>250 000+</h3>gwiazdek projektów OSS</td>
-    <td align="center" width="25%"><h3>40</h3>projektów open source</td>
+    <td align="center" width="25%"><h3>270 000+</h3>gwiazdek projektów OSS</td>
+    <td align="center" width="25%"><h3>41</h3>projektów open source</td>
     <td align="center" width="25%"><h3>26</h3>języków</td>
     <td align="center" width="25%"><h3>1 634</h3>dni pracy</td>
   </tr>
@@ -238,11 +238,11 @@ Docker <sub>61</sub> · React <sub>30</sub> · Express <sub>27</sub> · Tailwind
 
 ## 🌍 Open source
 
-> Poniżej lista projektów, do których kontrybuowałem (tylko te z zaakceptowanymi zmianami). Projekty posortowane według liczby gwiazdek. Łącznie 250 000+ ⭐ w 39 repozytoriach.
+> Poniżej lista projektów, do których kontrybuowałem (tylko te z zaakceptowanymi zmianami). Projekty posortowane według liczby gwiazdek. Łącznie 270 000+ ⭐ w 41 repozytoriach.
 
 | Projekt | Gwiazdki | Język | Zmiany |
 |---|---|---|---|
-| [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) | ⭐ 26,1 tys. | C# | <code>+4475</code> <code>-9</code> |
+| [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) | ⭐ 26,1 tys. | C# | <code>+4624</code> <code>-13</code> |
 | [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) | ⭐ 22,3 tys. | PHP | <code>+8</code> <code>-2</code> |
 | [postcss/autoprefixer](https://github.com/postcss/autoprefixer) | ⭐ 22,2 tys. | JavaScript | <code>+50</code> <code>-4</code> |
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | ⭐ 21,4 tys. | PHP | <code>+41</code> <code>-2</code> |
@@ -251,12 +251,13 @@ Docker <sub>61</sub> · React <sub>30</sub> · Express <sub>27</sub> · Tailwind
 | [App-vNext/Polly](https://github.com/App-vNext/Polly) | ⭐ 14,2 tys. | C# | <code>+19</code> <code>-1</code> |
 | [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | ⭐ 13,5 tys. | Go | <code>+14</code> <code>-13</code> |
 | [filp/whoops](https://github.com/filp/whoops) | ⭐ 13,2 tys. | PHP | <code>+42</code> <code>-1</code> |
-| [spencermountain/compromise](https://github.com/spencermountain/compromise) | ⭐ 12,2 tys. | JavaScript | <code>+49</code> <code>-3</code> |
+| [spencermountain/compromise](https://github.com/spencermountain/compromise) | ⭐ 12,2 tys. | JavaScript | <code>+65</code> <code>-5</code> |
 | [kanboard/kanboard](https://github.com/kanboard/kanboard) | ⭐ 9,9 tys. | PHP | <code>+76</code> <code>-6</code> |
 | [FluentValidation/FluentValidation](https://github.com/FluentValidation/FluentValidation) | ⭐ 9,8 tys. | C# | <code>+14</code> <code>-1</code> |
 | [serilog/serilog](https://github.com/serilog/serilog) | ⭐ 8 tys. | C# | <code>+12</code> <code>-0</code> |
 | [NLog/NLog](https://github.com/NLog/NLog) | ⭐ 6,5 tys. | C# | <code>+19</code> <code>-0</code> |
 | [Pagefind/pagefind](https://github.com/Pagefind/pagefind) | ⭐ 5,5 tys. | Rust | <code>+48</code> <code>-2</code> |
+| [xoofx/markdig](https://github.com/xoofx/markdig) | ⭐ 5,3 tys. | C# | <code>+223</code> <code>-7</code> |
 | [spencermountain/spacetime](https://github.com/spencermountain/spacetime) | ⭐ 4,1 tys. | JavaScript | <code>+15</code> <code>-40</code> |
 | [itchyny/gojq](https://github.com/itchyny/gojq) | ⭐ 3,8 tys. | Go | <code>+42</code> <code>-5</code> |
 | [Suor/funcy](https://github.com/Suor/funcy) | ⭐ 3,5 tys. | Python | <code>+18</code> <code>-2</code> |
@@ -272,13 +273,14 @@ Docker <sub>61</sub> · React <sub>30</sub> · Express <sub>27</sub> · Tailwind
 | [thephpleague/html-to-markdown](https://github.com/thephpleague/html-to-markdown) | ⭐ 1,9 tys. | PHP | <code>+3</code> <code>-2</code> |
 | [AfterShip/email-verifier](https://github.com/AfterShip/email-verifier) | ⭐ 1,6 tys. | Go | <code>+99</code> <code>-3</code> |
 | [gookit/color](https://github.com/gookit/color) | ⭐ 1,6 tys. | Go | <code>+12</code> <code>-1</code> |
+| [dgilland/pydash](https://github.com/dgilland/pydash) | ⭐ 1,4 tys. | Python | <code>+18</code> <code>-5</code> |
 | [cakephp/chronos](https://github.com/cakephp/chronos) | ⭐ 1,4 tys. | PHP | <code>+17</code> <code>-2</code> |
 | [go-playground/form](https://github.com/go-playground/form) | ⭐ 930 | Go | <code>+35</code> <code>-0</code> |
 | [mkideal/cli](https://github.com/mkideal/cli) | ⭐ 722 | Go | <code>+22</code> <code>-1</code> |
 | [gookit/config](https://github.com/gookit/config) | ⭐ 585 | Go | <code>+29</code> <code>-8</code> |
 | [rust-syndication/rss](https://github.com/rust-syndication/rss) | ⭐ 503 | Rust | <code>+24</code> <code>-2</code> |
-| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) | ⭐ 335 | Python | <code>+14</code> <code>-1</code> |
-| [rodaine/table](https://github.com/rodaine/table) | ⭐ 325 | Go | <code>+32</code> <code>-2</code> |
+| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) | ⭐ 336 | Python | <code>+14</code> <code>-1</code> |
+| [rodaine/table](https://github.com/rodaine/table) | ⭐ 324 | Go | <code>+32</code> <code>-2</code> |
 | [QEDK/configparser-rs](https://github.com/QEDK/configparser-rs) | ⭐ 86 | Rust | <code>+22</code> <code>-1</code> |
 | [thephpleague/uri-src](https://github.com/thephpleague/uri-src) | ⭐ 51 | PHP | <code>+18</code> <code>-2</code> |
 
