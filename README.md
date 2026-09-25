@@ -12,7 +12,7 @@ Współzałożyciel @ [Aphrodi](https://aphrodi.pl)
 
 Współzałożyciel & Deweloper @ Lunatic Studios
 
-Główny Deweloper @ Spectra, Plazer, Gyred
+Główny Deweloper @ Flaem, Plazer, Gyred
 
 <table align="center">
   <tr>
@@ -39,7 +39,7 @@ Główny Deweloper @ Spectra, Plazer, Gyred
 >
 > _Poza programowaniem interesuję się wieloma rzeczami - sztuką, historią, lingwistyką, matematyką, szachami, muzyką... długo by wymieniać._
 
-> **Teraz:** Od niedawna pracuję nad ukończeniem pierwszej wersji Spectry, panelu hostingowego. Projekt jest napisany w kilku językach (TypeScript, Rust, Elixir, Golang, a także mikroserwisy w Javie, Pythonie, C) i łącznie składa się z prawie miliona linijek kodu. Pierwsze wydanie Spectry planuję na ~ październik/listopad 2026.
+> **Teraz:** Od niedawna pracuję nad ukończeniem pierwszej wersji Flaema, panelu hostingowego. Projekt jest napisany w kilku językach (TypeScript, Rust, Elixir, Golang, a także mikroserwisy w Javie, Pythonie, C) i łącznie składa się z prawie miliona linijek kodu. Pierwsze wydanie Flaema planuję na ~ październik/listopad 2026.
 
 ## 📫 Kontakt
 
@@ -95,7 +95,7 @@ Główny Deweloper @ Spectra, Plazer, Gyred
   </tr>
   <tr>
     <td width="150" valign="top">🚀 <b>Własne platformy</b><br><sub>dziś</sub></td>
-    <td>Buduję własne produkty: Spectrę, Plazera, Gyreda oraz SaaS-y Atrium i Lokal. Z czasem będzie ich więcej, ale obecnie jestem skupiony raczej na dopracowaniu istniejących projektów, niż tworzeniu nowych.</td>
+    <td>Buduję własne produkty: Flaema, Plazera, Gyreda oraz SaaS-y Atrium i Lokal. Z czasem będzie ich więcej, ale obecnie jestem skupiony raczej na dopracowaniu istniejących projektów, niż tworzeniu nowych.</td>
   </tr>
 </table>
 
@@ -120,8 +120,8 @@ Główny Deweloper @ Spectra, Plazer, Gyred
 
 <table>
   <tr>
-    <td width="64" align="center"><img src="https://cdn.discordapp.com/emojis/1534902970246762649.webp?size=64&quality=lossless" width="40" alt="Spectra"></td>
-    <td><b>Spectra</b> &nbsp;<br>Platforma do hostingu i infrastruktury: serwery gier i kontenery, VPS i LXC, usługi sieciowe (tunele, tranzyty, bloki IP, integracje z routerami i ochroną anty-DDoS) oraz IPMI. Siedem niezależnych modułów w Rust, Elixirze i Go, panel w React, aplikacje na desktop, iOS i Androida.</td>
+    <td width="64" align="center"><img src="https://cdn.discordapp.com/emojis/1534902970246762649.webp?size=64&quality=lossless" width="40" alt="Flaem"></td>
+    <td><b>Flaem</b> &nbsp;<br>Platforma do hostingu i infrastruktury: serwery gier i kontenery, VPS i LXC, usługi sieciowe (tunele, tranzyty, bloki IP, integracje z routerami i ochroną anty-DDoS) oraz IPMI. Siedem niezależnych modułów w Rust, Elixirze i Go, panel w React, aplikacje na desktop, iOS i Androida.</td>
   </tr>
   <tr>
     <td align="center"><img src="https://docs.vulcode.com/uploads/images/gallery/2026-09/plazer.png" width="40" alt="Logo Plazer"></td>
@@ -163,7 +163,7 @@ Poza głównymi projektami robię dużo mniejszych rzeczy, zarówno na zlecenie,
 |---|---|---|
 | 🌐 | **Strony, panele i aplikacje na zlecenie** | strony firmowe z CMS-em, panele klienta, dashboardy, sklepy, integracje i automatyzacje |
 | ☁️ | **Platformy SaaS** | Pracuję nad platformami dla branży: hostingowej, hotelarskiej, restauracyjnej, a w przyszłości chciałbym poszerzyć działalność o kolejne branże. |
-| 🖥️ | **Hosting i infrastruktura** | serwery gier, Pterodactyl, Docker, monitoring, własne API do statystyk [ghapi](https://ghapi.dualfroz.com/v2/public), i przede wszystkim Spectra. |
+| 🖥️ | **Hosting i infrastruktura** | serwery gier, Pterodactyl, Docker, monitoring, własne API do statystyk [ghapi](https://ghapi.dualfroz.com/v2/public), i przede wszystkim Flaem. |
 | ⚙️ | **Systemy i niski poziom** | hobbystyczne jądro systemu x86_64 w C i asemblerze, silnik bazy klucz-wartość (LSM) w Zig, emulatory Game Boy i CHIP-8 w C#. Podsumowując, robię różne rzeczy tylko po to żeby się nauczyć jak co działa. |
 | 🧪 | **Języki i silniki** | język skryptowy w Kotlinie, silnik szachowy w Scali, silnik voxelowy w C++ z demem w WebAssembly, silnik arkuszy kalkulacyjnych w Dart. |
 | 🎮 | **Gry i pluginy** | pluginy do SCP: Secret Laboratory (Nebula), mini-gry przeglądarkowe i nie tylko.|
