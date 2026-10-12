@@ -35,7 +35,7 @@ Lead Developer @ Flaem, Plazer, Gyred
 >
 > _I contribute to all kinds of open source projects often and actively. I like helping and supporting communities wherever I can. I know my work isn't always perfect, so I always review it carefully, making sure that only the highest-quality additions and fixes land in projects used by thousands or even millions of people._
 >
-> _I have over 6 years of programming experience. In that time I've written **over 6,000,000** lines of code across **200+** projects. Altogether I've contributed to **61** open source repositories with a combined **490,000+** stars on GitHub._
+> _I have over 6 years of programming experience. In that time I've written **over 6,000,000** lines of code across **200+** projects. Altogether I've contributed to **64** open source repositories with a combined **540,000+** stars on GitHub._
 >
 > _Outside of programming I'm interested in a lot of things: art, history, linguistics, mathematics, chess, music... the list goes on._
 
@@ -182,8 +182,8 @@ Besides the main projects I do a lot of smaller things, both for clients and for
     <td align="center" width="25%"><h3>200+</h3>projects</td>
   </tr>
   <tr>
-    <td align="center" width="25%"><h3>490,000+</h3>OSS project stars</td>
-    <td align="center" width="25%"><h3>61</h3>open source projects</td>
+    <td align="center" width="25%"><h3>540,000+</h3>OSS project stars</td>
+    <td align="center" width="25%"><h3>64</h3>open source projects</td>
     <td align="center" width="25%"><h3>26</h3>languages</td>
     <td align="center" width="25%"><h3>1,659</h3>working days</td>
   </tr>
@@ -243,18 +243,20 @@ Docker <sub>62</sub> · React <sub>31</sub> · Express <sub>27</sub> · Vite <su
 ## 🌍 Open source
 
 <!-- stats:opensource -->
-> Below is a list of projects I've contributed to (only those with accepted changes), sorted by star count. 490,000+ ⭐ in total across 61 repositories.
+> Below is a list of projects I've contributed to (only those with accepted changes), sorted by star count. 540,000+ ⭐ in total across 64 repositories.
 
 | Project | Stars | Language | Changes |
 |---|---|---|---|
 | [zed-industries/zed](https://github.com/zed-industries/zed) | ⭐ 91.6k | Rust | <code>+123</code> <code>-10</code> |
-| [composer/composer](https://github.com/composer/composer) | ⭐ 29.5k | PHP | <code>+10</code> <code>-4</code> |
-| [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) | ⭐ 26.5k | C# | <code>+4624</code> <code>-13</code> |
+| [composer/composer](https://github.com/composer/composer) | ⭐ 29.6k | PHP | <code>+10</code> <code>-4</code> |
+| [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) | ⭐ 26.6k | C# | <code>+4648</code> <code>-23</code> |
 | [urfave/cli](https://github.com/urfave/cli) | ⭐ 24.3k | Go | <code>+52</code> <code>-12</code> |
 | [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) | ⭐ 22.3k | PHP | <code>+135</code> <code>-4</code> |
 | [postcss/autoprefixer](https://github.com/postcss/autoprefixer) | ⭐ 22.2k | JavaScript | <code>+314</code> <code>-63</code> |
+| [twpayne/chezmoi](https://github.com/twpayne/chezmoi) | ⭐ 21.9k | Go | <code>+43</code> <code>-17</code> |
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | ⭐ 21.4k | PHP | <code>+41</code> <code>-2</code> |
 | [valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) | ⭐ 21.4k | Rust | <code>+217</code> <code>-36</code> |
+| [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA) | ⭐ 17.5k | C# | <code>+43</code> <code>-5</code> |
 | [briannesbitt/Carbon](https://github.com/briannesbitt/Carbon) | ⭐ 16.6k | PHP | <code>+87</code> <code>-0</code> |
 | [PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery) | ⭐ 15k | Go | <code>+183</code> <code>-18</code> |
 | [App-vNext/Polly](https://github.com/App-vNext/Polly) | ⭐ 14.2k | C# | <code>+19</code> <code>-1</code> |
@@ -262,17 +264,18 @@ Docker <sub>62</sub> · React <sub>31</sub> · Express <sub>27</sub> · Vite <su
 | [filp/whoops](https://github.com/filp/whoops) | ⭐ 13.2k | PHP | <code>+115</code> <code>-3</code> |
 | [spencermountain/compromise](https://github.com/spencermountain/compromise) | ⭐ 12.2k | JavaScript | <code>+498</code> <code>-89</code> |
 | [doctrine/lexer](https://github.com/doctrine/lexer) | ⭐ 11.1k | PHP | <code>+72</code> <code>-2</code> |
-| [kanboard/kanboard](https://github.com/kanboard/kanboard) | ⭐ 9.9k | PHP | <code>+151</code> <code>-8</code> |
+| [kanboard/kanboard](https://github.com/kanboard/kanboard) | ⭐ 9.9k | PHP | <code>+293</code> <code>-11</code> |
 | [FluentValidation/FluentValidation](https://github.com/FluentValidation/FluentValidation) | ⭐ 9.8k | C# | <code>+14</code> <code>-1</code> |
 | [serilog/serilog](https://github.com/serilog/serilog) | ⭐ 8k | C# | <code>+12</code> <code>-0</code> |
 | [concourse/concourse](https://github.com/concourse/concourse) | ⭐ 7.9k | Go | <code>+153</code> <code>-23</code> |
 | [predis/predis](https://github.com/predis/predis) | ⭐ 7.8k | PHP | <code>+228</code> <code>-10</code> |
 | [vscode-neovim/vscode-neovim](https://github.com/vscode-neovim/vscode-neovim) | ⭐ 7.8k | TypeScript | <code>+65</code> <code>-2</code> |
-| [NLog/NLog](https://github.com/NLog/NLog) | ⭐ 6.5k | C# | <code>+19</code> <code>-0</code> |
+| [NLog/NLog](https://github.com/NLog/NLog) | ⭐ 6.5k | C# | <code>+94</code> <code>-4</code> |
 | [maildev/maildev](https://github.com/maildev/maildev) | ⭐ 6.1k | TypeScript | <code>+69</code> <code>-13</code> |
 | [Pagefind/pagefind](https://github.com/Pagefind/pagefind) | ⭐ 5.5k | Rust | <code>+48</code> <code>-2</code> |
 | [xoofx/markdig](https://github.com/xoofx/markdig) | ⭐ 5.3k | C# | <code>+223</code> <code>-7</code> |
 | [dromara/carbon](https://github.com/dromara/carbon) | ⭐ 5.2k | Go | <code>+41</code> <code>-4</code> |
+| [olekukonko/tablewriter](https://github.com/olekukonko/tablewriter) | ⭐ 4.8k | Go | <code>+16</code> <code>-0</code> |
 | [knadh/koanf](https://github.com/knadh/koanf) | ⭐ 4.2k | Go | <code>+28</code> <code>-7</code> |
 | [spencermountain/spacetime](https://github.com/spencermountain/spacetime) | ⭐ 4.1k | JavaScript | <code>+15</code> <code>-40</code> |
 | [itchyny/gojq](https://github.com/itchyny/gojq) | ⭐ 3.8k | Go | <code>+42</code> <code>-5</code> |
@@ -284,7 +287,7 @@ Docker <sub>62</sub> · React <sub>31</sub> · Express <sub>27</sub> · Vite <su
 | [thephpleague/commonmark](https://github.com/thephpleague/commonmark) | ⭐ 3k | PHP | <code>+17</code> <code>-0</code> |
 | [mitsuhiko/insta](https://github.com/mitsuhiko/insta) | ⭐ 3k | Rust | <code>+8</code> <code>-2</code> |
 | [api-platform/core](https://github.com/api-platform/core) | ⭐ 2.6k | PHP | <code>+6</code> <code>-6</code> |
-| [Paymenter/Paymenter](https://github.com/Paymenter/Paymenter) | ⭐ 2.4k | PHP | <code>+137</code> <code>-11</code> |
+| [Paymenter/Paymenter](https://github.com/Paymenter/Paymenter) | ⭐ 2.5k | PHP | <code>+137</code> <code>-11</code> |
 | [pelican/panel](https://github.com/pelican/panel) | ⭐ 2.4k | PHP | <code>+338</code> <code>-32</code> |
 | [gookit/goutil](https://github.com/gookit/goutil) | ⭐ 2.4k | Go | <code>+12</code> <code>-0</code> |
 | [dedoc/scramble](https://github.com/dedoc/scramble) | ⭐ 2.2k | PHP | <code>+23</code> <code>-0</code> |
