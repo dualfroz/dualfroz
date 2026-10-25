@@ -13,6 +13,8 @@ import re
 import urllib.request
 
 API = "https://ghapi.dualfroz.com/v2/public"
+# Proxmox patches go through the pve-devel list, so ghapi does not see them; vulcode.com and dualfroz.com add them the same way
+PROXMOX = {"repos": 1}
 FILES = {"pl": "README.md", "en": "README.en.md"}
 
 TEXT = {
@@ -75,13 +77,13 @@ def summary(s, lang):
     net = t["linesAdded"] - t["linesRemoved"]
     return f"""<table>
   <tr>
-    <td align="center" colspan="2" width="50%"><h3>{num(t["linesAdded"], lang)}</h3>{T["loc"]}</td>
+    <td align="center" colspan="2" width="50%"><h3>{num(t["lines"], lang)}</h3>{T["loc"]}</td>
     <td align="center" width="25%"><h3>{num(t["commits"], lang)}</h3>{T["commits"]}</td>
-    <td align="center" width="25%"><h3>200+</h3>{T["projects"]}</td>
+    <td align="center" width="25%"><h3>{num(t["projects"], lang)}</h3>{T["projects"]}</td>
   </tr>
   <tr>
     <td align="center" width="25%"><h3>{num(floor_to(oss["stars"], 10_000), lang)}+</h3>{T["oss_stars"]}</td>
-    <td align="center" width="25%"><h3>{num(oss["repos"], lang)}</h3>{T["oss_projects"]}</td>
+    <td align="center" width="25%"><h3>{num(oss["repos"] + PROXMOX["repos"], lang)}</h3>{T["oss_projects"]}</td>
     <td align="center" width="25%"><h3>{num(t["languages"], lang)}</h3>{T["languages"]}</td>
     <td align="center" width="25%"><h3>{num(t["activeDays"], lang)}</h3>{T["days"]}</td>
   </tr>
@@ -134,16 +136,19 @@ def opensource(oss, lang):
 
 def intro(content, s, lang):
     t, oss = s["totals"], s["openSource"]["contributed"]
-    millions = floor_to(t["linesAdded"], 1_000_000)
+    millions = floor_to(t["lines"], 1_000_000)
     stars = floor_to(oss["stars"], 10_000)
+    repos = oss["repos"] + PROXMOX["repos"]
     if lang == "pl":
         content = re.sub(r"napisałem \*\*ponad [\d  ]+\*\* linijek", f"napisałem **ponad {num(millions, lang)}** linijek", content)
-        content = re.sub(r"cegiełkę do \*\*\d+\*\* repozytoriów", f"cegiełkę do **{oss['repos']}** repozytoriów", content)
+        content = re.sub(r"cegiełkę do \*\*\d+\*\* repozytoriów", f"cegiełkę do **{repos}** repozytoriów", content)
         content = re.sub(r"mają \*\*[\d  ]+\+\*\* gwiazdek", f"mają **{num(stars, lang)}+** gwiazdek", content)
+        content = re.sub(r"kodu w \*\*\d+\+?\*\* projektach", f"kodu w **{t['projects']}** projektach", content)
     else:
         content = re.sub(r"written \*\*over [\d,]+\*\* lines", f"written **over {num(millions, lang)}** lines", content)
-        content = re.sub(r"contributed to \*\*\d+\*\* open source", f"contributed to **{oss['repos']}** open source", content)
+        content = re.sub(r"contributed to \*\*\d+\*\* open source", f"contributed to **{repos}** open source", content)
         content = re.sub(r"combined \*\*[\d,]+\+\*\* stars", f"combined **{num(stars, lang)}+** stars", content)
+        content = re.sub(r"across \*\*\d+\+?\*\* projects", f"across **{t['projects']}** projects", content)
     return content
 
 
