@@ -13,7 +13,6 @@ import re
 import urllib.request
 
 API = "https://ghapi.dualfroz.com/v2/public"
-# Proxmox patches go through the pve-devel list, so ghapi does not see them; vulcode.com and dualfroz.com add them the same way
 PROXMOX = {"repos": 1}
 FILES = {"pl": "README.md", "en": "README.en.md"}
 
