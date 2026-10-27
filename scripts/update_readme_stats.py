@@ -22,6 +22,8 @@ import urllib.request
 apiBase = "https://ghapi.dualfroz.com/v2/public"
 proxmoxExtra = {"repos": 1}
 readmeFiles = {"pl": "README.md", "en": "README.en.md"}
+beyondFile = "data/beyondGithub.json"
+beyondChangesShown = 4
 userAgent = "readme-stats"
 attempts = 5
 requestTimeout = 20
@@ -36,6 +38,13 @@ labels = {
         "ossIntro": "Poniżej lista projektów, do których kontrybuowałem (tylko te z zaakceptowanymi zmianami). "
                     "Projekty posortowane według liczby gwiazdek. Łącznie {stars}+ ⭐ w {repos} repozytoriach.",
         "ossHead": "| Projekt | Gwiazdki | Język | Zmiany |",
+        "beyondIntro": "Kod przyjęty poza GitHubem, przez listy mailowe i własne systemy review: **{commits}** {commitsWord} "
+                       "w **{repos}** {reposWord}.",
+        "beyondPending": "Pod nimi zmiany zaakceptowane przez maintainerów, które czekają na merge.",
+        "beyondHead": "| Projekt | Repozytorium | Stan | Zmiany |",
+        "accepted": "przyjęte, {n} {commitsWord}",
+        "approved": "zaakceptowane, czeka na merge",
+        "more": "+{n} więcej",
     },
     "en": {
         "loc": "lines of code", "commits": "commits", "projects": "projects",
@@ -46,6 +55,13 @@ labels = {
         "ossIntro": "Below is a list of projects I've contributed to (only those with accepted changes), "
                     "sorted by star count. {stars}+ ⭐ in total across {repos} repositories.",
         "ossHead": "| Project | Stars | Language | Changes |",
+        "beyondIntro": "Code merged outside GitHub, through mailing lists and the projects' own review tools: **{commits}** {commitsWord} "
+                       "in **{repos}** {reposWord}.",
+        "beyondPending": "Below them, changes approved by the maintainers that are awaiting merge.",
+        "beyondHead": "| Project | Repository | Status | Changes |",
+        "accepted": "merged, {n} {commitsWord}",
+        "approved": "approved, awaiting merge",
+        "more": "+{n} more",
     },
 }
 
@@ -169,6 +185,52 @@ def opensource(oss, lang):
     return "\n".join(lines)
 
 
+def commitsWord(count, lang):
+    if lang == "en":
+        return "commit" if count == 1 else "commits"
+    if count == 1:
+        return "commit"
+    return "commity" if count % 10 in (2, 3, 4) and count % 100 not in (12, 13, 14) else "commitów"
+
+
+def reposWord(count, lang):
+    if lang == "en":
+        return "repository" if count == 1 else "repositories"
+    return "repozytorium" if count == 1 else "repozytoriach"
+
+
+def beyondChanges(contribution, lang):
+    changes = contribution["changes"]
+    shown = changes if len(changes) <= beyondChangesShown else changes[:beyondChangesShown - 1]
+    links = [f'[{change["label"]}]({change["url"]}) {change["title"][lang]}' for change in shown]
+    if len(shown) < len(changes):
+        more = labels[lang]["more"].format(n=len(changes) - len(shown))
+        links.append(f'[{more}]({contribution["authorSearchUrl"] or contribution["url"]})')
+    return "<br>".join(links)
+
+
+def beyond(contributions, lang):
+    if not contributions:
+        raise ValueError("no contributions beyond GitHub")
+    words = labels[lang]
+    accepted = [contribution for contribution in contributions if contribution["status"] == "accepted"]
+    commits = sum(contribution["commits"] for contribution in accepted)
+    introLine = words["beyondIntro"].format(commits=num(commits, lang), commitsWord=commitsWord(commits, lang),
+                                            repos=len(accepted), reposWord=reposWord(len(accepted), lang))
+    if len(accepted) < len(contributions):
+        introLine = f'{introLine} {words["beyondPending"]}'
+    lines = [f"> {introLine}", "", words["beyondHead"], "|---|---|---|---|"]
+    for contribution in contributions:
+        state = (words["accepted"].format(n=contribution["commits"], commitsWord=commitsWord(contribution["commits"], lang))
+                 if contribution["status"] == "accepted" else words["approved"])
+        lines.append(
+            f'| {contribution["project"]} | '
+            f'[{contribution["repo"]}]({contribution["authorSearchUrl"] or contribution["url"]})<br><sub>{contribution["platform"]}</sub> | '
+            f'{state} | {beyondChanges(contribution, lang)} |'
+        )
+    return "\n".join(lines)
+
+
 def experience(content, lang):
     startPattern = r"Od (\d{4}) roku regularnie" if lang == "pl" else r"regularly since (\d{4})"
     start = re.search(startPattern, content)
@@ -229,6 +291,7 @@ def render(content, sources, lang):
     content = section(content, "summary", lambda text: block(text, "summary", summary(stats, lang)))
     content = section(content, "languages", lambda text: block(
         text, "languages", languages(sources[f"languages:{lang}"], sources["frameworks"], icons, lang)))
+    content = section(content, "beyond", lambda text: block(text, "beyond", beyond(sources["beyond"], lang)))
     content = section(content, "opensource", lambda text: block(
         text, "opensource", opensource(sources["opensource"], lang)))
     return content
@@ -240,6 +303,8 @@ def main():
     except ApiError as error:
         print(f"::error::API unreachable, README files left untouched: {error}", file=sys.stderr)
         sys.exit(1)
+    with open(beyondFile, encoding="utf-8") as file:
+        sources["beyond"] = json.load(file)["contributions"]
     for lang, path in readmeFiles.items():
         with open(path, encoding="utf-8") as file:
             current = file.read()
