@@ -35,7 +35,7 @@ Lead Developer @ Flaem, Plazer, Gyred
 >
 > _I contribute to all kinds of open source projects often and actively. I like helping and supporting communities wherever I can. I know my work isn't always perfect, so I always review it carefully, making sure that only the highest-quality additions and fixes land in projects used by thousands or even millions of people._
 >
-> _I have over 6 years of programming experience. In that time I've written **over 6,000,000** lines of code across **105** projects. Altogether I've contributed to **79** open source repositories with a combined **1,100,000+** stars on GitHub._
+> _I have over 6 years of programming experience. In that time I've written **over 6,000,000** lines of code across **105** projects. Altogether I've contributed to **80** open source repositories with a combined **1,220,000+** stars on GitHub._
 >
 > _Outside of programming I'm interested in a lot of things: art, history, linguistics, mathematics, chess, music... the list goes on._
 
@@ -178,21 +178,21 @@ Besides the main projects I do a lot of smaller things, both for clients and for
 <table>
   <tr>
     <td align="center" colspan="2" width="50%"><h3>6,396,043</h3>lines of code</td>
-    <td align="center" width="25%"><h3>24,311</h3>commits</td>
+    <td align="center" width="25%"><h3>24,313</h3>commits</td>
     <td align="center" width="25%"><h3>105</h3>projects</td>
   </tr>
   <tr>
-    <td align="center" width="25%"><h3>1,100,000+</h3>OSS project stars</td>
-    <td align="center" width="25%"><h3>79</h3>open source projects</td>
+    <td align="center" width="25%"><h3>1,220,000+</h3>OSS project stars</td>
+    <td align="center" width="25%"><h3>80</h3>open source projects</td>
     <td align="center" width="25%"><h3>26</h3>languages</td>
     <td align="center" width="25%"><h3>1,679</h3>working days</td>
   </tr>
 </table>
 
 ```diff
-+ 7,573,202 lines added
-- 1,318,109 lines removed
-! 6,255,093 net lines
++ 7,573,499 lines added
+- 1,318,429 lines removed
+! 6,255,070 net lines
 ```
 <!-- /stats:summary -->
 
@@ -261,14 +261,15 @@ Docker <sub>62</sub> · React <sub>31</sub> · Express <sub>27</sub> · Vite <su
 ### On GitHub
 
 <!-- stats:opensource -->
-> Below is a list of projects I've contributed to (only those with accepted changes), sorted by star count. 1,100,000+ ⭐ in total across 78 repositories.
+> Below is a list of projects I've contributed to (only those with accepted changes), sorted by star count. 1,220,000+ ⭐ in total across 79 repositories.
 
 | Project | Stars | Language | Changes |
 |---|---|---|---|
 | [nodejs/node](https://github.com/nodejs/node) | ⭐ 123.1k | JavaScript | <code>+43</code> <code>-7</code> |
+| [godotengine/godot](https://github.com/godotengine/godot) | ⭐ 119.2k | C++ | <code>+3</code> <code>-0</code> |
 | [mui/material-ui](https://github.com/mui/material-ui) | ⭐ 99.3k | JavaScript | <code>+23</code> <code>-28</code> |
 | [zed-industries/zed](https://github.com/zed-industries/zed) | ⭐ 92.3k | Rust | <code>+123</code> <code>-10</code> |
-| [astral-sh/uv](https://github.com/astral-sh/uv) | ⭐ 91.2k | Rust | <code>+124</code> <code>-7</code> |
+| [astral-sh/uv](https://github.com/astral-sh/uv) | ⭐ 91.3k | Rust | <code>+124</code> <code>-7</code> |
 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | ⭐ 66.1k | Rust | <code>+127</code> <code>-30</code> |
 | [mastodon/mastodon](https://github.com/mastodon/mastodon) | ⭐ 50.5k | Ruby | <code>+34</code> <code>-2</code> |
 | [markedjs/marked](https://github.com/markedjs/marked) | ⭐ 37.3k | JavaScript | <code>+37</code> <code>-1</code> |
