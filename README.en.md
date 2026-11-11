@@ -35,7 +35,7 @@ Lead Developer @ Flaem, Plazer, Gyred
 >
 > _I contribute to all kinds of open source projects often and actively. I like helping and supporting communities wherever I can. I know my work isn't always perfect, so I always review it carefully, making sure that only the highest-quality additions and fixes land in projects used by thousands or even millions of people._
 >
-> _I have over 6 years of programming experience. In that time I've written **over 7,000,000** lines of code across **106** projects. Altogether I've contributed to **86** open source repositories with a combined **1,350,000+** stars on GitHub._
+> _I have over 6 years of programming experience. In that time I've written **over 7,000,000** lines of code across **106** projects. Altogether I've contributed to **87** open source repositories with a combined **1,360,000+** stars on GitHub._
 >
 > _Outside of programming I'm interested in a lot of things: art, history, linguistics, mathematics, chess, music... the list goes on._
 
@@ -178,21 +178,21 @@ Besides the main projects I do a lot of smaller things, both for clients and for
 <table>
   <tr>
     <td align="center" colspan="2" width="50%"><h3>7,601,603</h3>lines of code</td>
-    <td align="center" width="25%"><h3>25,165</h3>commits</td>
+    <td align="center" width="25%"><h3>25,166</h3>commits</td>
     <td align="center" width="25%"><h3>106</h3>projects</td>
   </tr>
   <tr>
-    <td align="center" width="25%"><h3>1,350,000+</h3>OSS project stars</td>
-    <td align="center" width="25%"><h3>86</h3>open source projects</td>
+    <td align="center" width="25%"><h3>1,360,000+</h3>OSS project stars</td>
+    <td align="center" width="25%"><h3>87</h3>open source projects</td>
     <td align="center" width="25%"><h3>26</h3>languages</td>
-    <td align="center" width="25%"><h3>1,693</h3>working days</td>
+    <td align="center" width="25%"><h3>1,694</h3>working days</td>
   </tr>
 </table>
 
 ```diff
-+ 8,909,757 lines added
-- 1,414,757 lines removed
-! 7,495,000 net lines
++ 8,909,793 lines added
+- 1,414,791 lines removed
+! 7,495,002 net lines
 ```
 <!-- /stats:summary -->
 
@@ -261,18 +261,18 @@ Docker <sub>62</sub> · React <sub>32</sub> · Express <sub>27</sub> · Vite <su
 ### On GitHub
 
 <!-- stats:opensource -->
-> Below is a list of projects I've contributed to (only those with accepted changes), sorted by star count. 1,350,000+ ⭐ in total across 85 repositories.
+> Below is a list of projects I've contributed to (only those with accepted changes), sorted by star count. 1,360,000+ ⭐ in total across 86 repositories.
 
 | Project | Stars | Language | Changes |
 |---|---|---|---|
 | [nodejs/node](https://github.com/nodejs/node) | ⭐ 123.5k | JavaScript | <code>+43</code> <code>-7</code> |
-| [godotengine/godot](https://github.com/godotengine/godot) | ⭐ 119.9k | C++ | <code>+3</code> <code>-0</code> |
+| [godotengine/godot](https://github.com/godotengine/godot) | ⭐ 120k | C++ | <code>+3</code> <code>-0</code> |
 | [mui/material-ui](https://github.com/mui/material-ui) | ⭐ 99.3k | JavaScript | <code>+23</code> <code>-28</code> |
 | [zed-industries/zed](https://github.com/zed-industries/zed) | ⭐ 94.7k | Rust | <code>+123</code> <code>-10</code> |
 | [astral-sh/uv](https://github.com/astral-sh/uv) | ⭐ 91.9k | Rust | <code>+124</code> <code>-7</code> |
 | [grafana/grafana](https://github.com/grafana/grafana) | ⭐ 77.8k | TypeScript | <code>+52</code> <code>-2</code> |
 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | ⭐ 66.2k | Rust | <code>+127</code> <code>-30</code> |
-| [mastodon/mastodon](https://github.com/mastodon/mastodon) | ⭐ 50.5k | Ruby | <code>+34</code> <code>-2</code> |
+| [mastodon/mastodon](https://github.com/mastodon/mastodon) | ⭐ 50.6k | Ruby | <code>+34</code> <code>-2</code> |
 | [markedjs/marked](https://github.com/markedjs/marked) | ⭐ 37.3k | TypeScript | <code>+37</code> <code>-1</code> |
 | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | ⭐ 33.5k | C++ | <code>+7</code> <code>-5</code> |
 | [composer/composer](https://github.com/composer/composer) | ⭐ 29.6k | PHP | <code>+10</code> <code>-4</code> |
@@ -297,6 +297,7 @@ Docker <sub>62</sub> · React <sub>32</sub> · Express <sub>27</sub> · Vite <su
 | [doctrine/lexer](https://github.com/doctrine/lexer) | ⭐ 11.1k | PHP | <code>+72</code> <code>-2</code> |
 | [kanboard/kanboard](https://github.com/kanboard/kanboard) | ⭐ 10k | PHP | <code>+293</code> <code>-11</code> |
 | [FluentValidation/FluentValidation](https://github.com/FluentValidation/FluentValidation) | ⭐ 9.8k | C# | <code>+14</code> <code>-1</code> |
+| [pterodactyl/panel](https://github.com/pterodactyl/panel) | ⭐ 9.5k | PHP | <code>+145</code> <code>-3</code> |
 | [fission/fission](https://github.com/fission/fission) | ⭐ 8.9k | Go | <code>+569</code> <code>-15</code> |
 | [serilog/serilog](https://github.com/serilog/serilog) | ⭐ 8.1k | C# | <code>+12</code> <code>-0</code> |
 | [concourse/concourse](https://github.com/concourse/concourse) | ⭐ 7.9k | Go | <code>+153</code> <code>-23</code> |
